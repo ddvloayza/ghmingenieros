@@ -1,0 +1,131 @@
+{% extends "web/base.html" %}
+{% load static %}
+{% block social_facebook %}
+  <meta property="og:url"           content="" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="" />
+  <meta property="og:description"   content="" />
+  <meta property="og:image"         content="" />
+  <meta property="og:image:width"   content="1920"/>
+  <meta property="og:image:height"   content="1079" />
+
+{% endblock social_facebook %}
+
+{% block css %}
+<style>
+
+
+</style>
+
+{% endblock css %}
+{% block content %}
+     <!-- Header Start -->
+     <div class="jumbotron jumbotron-fluid mb-5">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3">Acerca de nosotros</h1>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <i class="fa fa-circle px-3"></i>
+                <p class="m-0">Acerca de nosotros</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    <div class="bg-primary text-dark text-center p-4">
+                        <h3 class="m-0">25+ Years Experience</h3>
+                    </div>
+                </div> -->
+                <div class="col-lg-7">
+   
+                    <h1 class="mb-4">Nuestra Experiencia</h1>
+                    <p class="mb-4">GHM Ingenieros & Servicios Industriales S.A.C. se basa en la experiencia y disciplina de nuestros profesionales en los sectores de la industria metal mecánica, fabricación de equipos para minería, embarcaciones, industria del petróleo (onshore y offshore), gas, energía, inspección de gaseoductos y oleoductos, refinería de petróleo, muelles con pilotes, puentes estructurales, centrales termoeléctricas, centrales hidráulicas y en la industria en general.</p>
+                    <!-- <div class="d-flex align-items-center pt-2">
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-bold m-0 ml-4">Play Video</h5>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid bg-secondary my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- <div class="col-lg-5">
+                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                </div> -->
+                <div class="col-lg-7 py-5">
+             
+                    <h1 class="mb-4">La satisfaccion de nuestros clientes</h1>
+                    <p class="mb-4">GHM Ingenieros & Servicios Industriales S.A.C. se creó para satisfacer una necesidad en nuestra industria actual: Inspectores y Supervisores de servicios avanzados competentes, calificados y certificados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                    <div class="bg-primary text-dark text-center p-4">
+                        <h3 class="m-0">25+ Years Experience</h3>
+                    </div>
+                </div> -->
+                <div class="col-lg-7">
+ 
+                    <h1 class="mb-4">Nuestra Efectividad</h1>
+                    <p class="mb-4">GHM Ingenieros & Servicios Industriales S.A.C. tiene la capacidad de proporcionar Inspectores y Supervisores experimentados y certificados, que pueden realizar y supervisar inspecciones no destructivas de acuerdo con procedimientos estándar o establecidos.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-secondary my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- <div class="col-lg-5">
+                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                </div> -->
+                <div class="col-lg-7 py-5">
+             
+                    <h1 class="mb-4">Nuestro Equipo</h1>
+                    <p class="mb-4">Nuestro equipo de ingenieros y técnicos altamente capacitados cuenta con más de 15 años de experiencia en la industria. Nuestra vasta experiencia nos ayuda a brindar soluciones que dan como resultado una combinación de técnicas convencionales y avanzadas. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+{% block js %}
+
+{% endblock js %}

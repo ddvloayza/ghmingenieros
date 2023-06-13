@@ -1,0 +1,133 @@
+{% extends "web/base.html" %}
+{% load static %}
+{% block social_facebook %}
+  <meta property="og:url"           content="" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="" />
+  <meta property="og:description"   content="" />
+  <meta property="og:image"         content="" />
+  <meta property="og:image:width"   content="1920"/>
+  <meta property="og:image:height"   content="1079" />
+
+{% endblock social_facebook %}
+
+{% block css %}
+<style>
+
+
+</style>
+
+{% endblock css %}
+{% block content %}
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid mb-5">
+        <div class="container text-center py-5">
+            <h1 class="text-primary mb-4">GHM</h1>
+            <h1 class="text-white display-3 mb-5">Ingenieros</h1>
+
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12  text-center sectionTopPadding">
+               <h3 class="title tqa"><strong>TOTAL QUALITY. ASSURED.</strong></h3>
+      <p>Aseguramiento Total de la Calidad, entregada de manera consistente, con Precisión, Constancia y Pasión, permitiendo a nuestros clientes avanzar con seguridad.</p>
+
+            </div>
+        </div>
+        <div class="row">
+                 <div class="col-md-12 text-center homeCategories">
+                    <div class="secHeader">NUESTROS SERVICIOS</div>
+                    <div class="row row-no-margin">
+                        <div class="col-xs-12 text-left bkgFill">
+                            <div class="list-group">
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#soldadura" data-toggle="collapse">Escuela de Soldadura</a>
+                                    <div id="soldadura" class="collapse homeCatDesc">
+                                        Permitiendo a nuestros clientes identificar y mitigar riesgos intrínsecos en sus operaciones, cadenas de suministro y procesos comerciales.<br>
+                                        <a href="escuela-soldadura.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#tratamiento" data-toggle="collapse">Tratamiento Termicos y Dureza</a>
+                                    <div id="tratamiento" class="collapse homeCatDesc">
+                                        Evaluando cómo los productos y servicios de los clientes cumplen y exceden los estándares de calidad, seguridad, sostenibilidad y rendimiento.<br>
+                                        <a href="tratamiento-termico.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#pruebas-no-destructivas" data-toggle="collapse">Ensayos no Destructivas</a>
+                                    <div id="pruebas-no-destructivas" class="collapse homeCatDesc">
+                                        Validando las especificaciones, valor y seguridad de las materias primas, productos y activos de nuestros clientes.<br>
+                                        <a href="pruebas-no-destructivas.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#capacitacion" data-toggle="collapse">Capacitacion y certificacion NDT AWS</a>
+                                    <div id="capacitacion" class="collapse homeCatDesc">
+                                        Confirmando oficialmente que los productos y servicios de nuestros clientes cumplen todos los estándares externos e internos.<br>
+                                        <a href="capacitacion-pnd.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#calibracion" data-toggle="collapse">ELABORACIÓN Y CALIFICACIÓN DE PROCEDIMIENTOS</a>
+                                    <div id="calibracion" class="collapse homeCatDesc">
+                                        Confirmando oficialmente que los productos y servicios de nuestros clientes cumplen todos los estándares externos e internos.<br>
+                                        <a href="calibracion-de-instrumentos.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#metalograficas" data-toggle="collapse">METALOGRAFÍA</a>
+                                    <div id="metalograficas" class="collapse homeCatDesc">
+                                        Confirmando oficialmente que los productos y servicios de nuestros clientes cumplen todos los estándares externos e internos.<br>
+                                        <a href="pruebas=metalograficas.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#metalograficas" data-toggle="collapse">VERIFICACIÓN DE MATERIALES</a>
+                                    <div id="metalograficas" class="collapse homeCatDesc">
+                                        Confirmando oficialmente que los productos y servicios de nuestros clientes cumplen todos los estándares externos e internos.<br>
+                                        <a href="pruebas=metalograficas.html">Leer más</a>
+                                    </div>
+                                </div>
+                                <div class="list-group-item text-nowrap expand">
+                                    <a href="#metalograficas" data-toggle="collapse">PRUEBA DE VACÍO EN SOLDADURAS</a>
+                                    <div id="metalograficas" class="collapse homeCatDesc">
+                                        Confirmando oficialmente que los productos y servicios de nuestros clientes cumplen todos los estándares externos e internos.<br>
+                                        <a href="pruebas=metalograficas.html">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+{% endblock content %}
+{% block js %}
+
+{% endblock js %}
