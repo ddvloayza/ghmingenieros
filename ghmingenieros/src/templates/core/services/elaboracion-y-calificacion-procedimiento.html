@@ -1,0 +1,93 @@
+{% extends "web/base.html" %}
+{% load static %}
+{% block social_facebook %}
+  <meta property="og:url"           content="" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="" />
+  <meta property="og:description"   content="" />
+  <meta property="og:image"         content="" />
+  <meta property="og:image:width"   content="1920"/>
+  <meta property="og:image:height"   content="1079" />
+
+{% endblock social_facebook %}
+
+{% block css %}
+<style>
+
+
+</style>
+
+{% endblock css %}
+{% block content %}
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid mb-5">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3">ELABORACIÓN Y CALIFICACIÓN DE PROCEDIMIENTOS</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">ELABORACIÓN Y CALIFICACIÓN DE PROCEDIMIENTOS</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+<!-- Blog Start -->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Blog Detail Start -->
+            <div class="pb-3">
+                <div class="position-relative">
+                    <div id="slider">
+                        <figure>
+                            <img src="{% static 'img/Soldadores/CS1A.JPG' %}" alt="">
+                            <img src="{% static 'img/Soldadores/CS1B.png' %}" alt="">
+                            <img src="{% static 'img/Soldadores/CS1C.JPG' %}" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="bg-secondary mb-3" style="padding: 30px;">
+
+                    <h4 class="font-weight-bold mb-3">Calificación de Procedimientos de Soldadura y Soldadores (WPS – PQR – WPQR)</h4>
+                    <p>La Calificación de Soldaduras y Soldadores es un proceso que va tomando mayor importancia y demanda en nuestro medio, pues se requiere que las soldaduras ejecutadas en una amplia variedad de aplicaciones de Ingeniería Mecánica cumplan con los requisitos del Código de Calificación aplicado; para de esta forma, alcanzar en cada caso los estándares de calidad convenientes; debiéndose tener en cuenta que, dicho código debe elegirse de acuerdo al tipo de servicio que prestará la soldadura y a las características del material a soldar. </p>
+
+                    
+                </div>
+            </div>
+            <!-- Blog Detail End -->
+
+            <div class="pb-3">
+                <div class="position-relative">
+                    <div id="slider">
+                        <figure>
+                            <img src="{% static 'img/Calificacion Procedimiento/CP1A.jpg' %}" alt="">
+                            <img src="{% static 'img/Calificacion Procedimiento/CP1B.png' %}" alt="">
+                            <img src="{% static 'img/Calificacion Procedimiento/CP1C.jpg' %}" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="bg-secondary mb-3" style="padding: 30px;">
+
+                    <h4 class="font-weight-bold mb-3">Calificación de procedimientos NDT</h4>
+                    <p>Elaboración, revisión y asesoramientos de Procedimientos por Ingeniero y Nivel III ASNT quienes se encuentran en constante capacitación y actualización para brindar el mejor servicio según las necesidades de su empresa. Nuestro servicio personalizado permite que el Ingeniero haga un acompañamiento virtual de sus requerimientos. </p>
+
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sidebar Start -->
+
+        <!-- Sidebar End -->
+    </div>
+</div>
+<!-- Blog End -->
+{% endblock content %}
+{% block js %}
+
+{% endblock js %}

@@ -1,0 +1,94 @@
+{% extends "web/base.html" %}
+{% load static %}
+{% block social_facebook %}
+  <meta property="og:url"           content="" />
+  <meta property="og:type"          content="article" />
+  <meta property="og:title"         content="" />
+  <meta property="og:description"   content="" />
+  <meta property="og:image"         content="" />
+  <meta property="og:image:width"   content="1920"/>
+  <meta property="og:image:height"   content="1079" />
+
+{% endblock social_facebook %}
+
+{% block css %}
+<style>
+
+
+</style>
+
+{% endblock css %}
+{% block content %}
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid mb-5">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3">Verificacion de Materiales</h1>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="{% url 'core:home' %}">Home</a></p>
+                <i class="fa fa-circle px-3"></i>
+                <p class="m-0">Verificacion de Materiales</p>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Blog Start -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Blog Detail Start -->
+                <div class="pb-3">
+                    <div class="">
+                        <div id="slider">
+                            <figure>
+                                <img src="{% static 'img/PMI/PMI1A.JPG' %}" alt="">
+                                <img src="{% static 'img/PMI/PMI1B.jpg' %}" alt="">
+                                <img src="{% static 'img/PMI/PMI1C.jpg' %}" alt="">
+                            </figure>
+                        </div>
+
+                    </div>
+                    <div class="bg-secondary mb-3" style="padding: 30px;">
+
+                        <h4 class="font-weight-bold mb-3">Identificación positiva de materiales (PMI)</h4>
+                        <p>
+                            Una evaluación o prueba física de un material realizada para confirmar que el material que ha sido o será puesto en servicio es consistente con lo especificado por el propietario/usuario. Estas evaluaciones o pruebas pueden proporcionar información cualitativa o cuantitativa suficiente para verificar la composición.
+                        </p>                        
+                        
+                    </div>
+                </div>
+                <!-- Blog Detail End -->
+
+                <div class="pb-3">
+                    <div class="">
+                        <div id="slider">
+                            <figure>
+                                <img src="{% static 'img/Ferrita/F1A.jpg' %}" alt="">
+                                <img src="{% static 'img/Ferrita/F1B.jpg' %}" alt="">
+                                <img src="{% static 'img/Ferrita/F1A.jpg' %}" alt="">
+                            </figure>
+                        </div>
+
+                    </div>
+                    <div class="bg-secondary mb-3" style="padding: 30px;">
+
+                        <h4 class="font-weight-bold mb-3">Calibración de Ferrita</h4>
+                        <p>
+                            El metal de soldadura de aceros inoxidables austeníticos forma micro grietas cuando no contienen suficiente contenido de una fase magnética conocida como ferrita delta. La cantidad de ferrita delta puede predecirse si la composición química del metal de soldadura es conocida. La ferrita en soldaduras de producción puede ser medida usando uno de distintos dispositivos comparadores magnéticos, (calibradores de ferrita) algunos de los cuales son robustos y altamente portables. La ferrita es medida en Número de Ferrita (FN), y se mide el Contenido de Ferrita Delta de Metal de Soldadura de Aceros Inoxidables Austeníticos y Dúplex Austeníticos- Ferríticos. Típicamente, un mínimo de 3 FN es adecuado para impedir micro grietas, aunque los requerimientos específicos deben ser proporcionados en los documentos de contrato para el trabajo.
+                        </p>                     
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sidebar Start -->
+            <!-- Sidebar End -->
+        </div>
+    </div>
+    <!-- Blog End -->
+{% endblock content %}
+{% block js %}
+
+{% endblock js %}

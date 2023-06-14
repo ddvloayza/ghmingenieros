@@ -7378,3 +7378,324 @@ WARNING [2023-06-13 02:19:56,794] basehttp "GET /mision/img/logo.png HTTP/1.1" 4
 INFO [2023-06-13 02:20:14,978] basehttp "GET /mision/ HTTP/1.1" 200 9738
 WARNING [2023-06-13 02:20:15,011] log Not Found: /mision/img/logo.png
 WARNING [2023-06-13 02:20:15,014] basehttp "GET /mision/img/logo.png HTTP/1.1" 404 3387
+INFO [2023-06-14 00:02:42,473] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:02:45,399] basehttp "GET /mision/ HTTP/1.1" 200 9733
+INFO [2023-06-14 00:02:45,413] basehttp "GET /static/css/style.css HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,414] basehttp "GET /static/lib/owlcarousel/assets/owl.carousel.min.css HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,433] basehttp "GET /static/lib/waypoints/waypoints.min.js HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,433] basehttp "GET /static/lib/easing/easing.min.js HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,436] basehttp "GET /static/lib/counterup/counterup.min.js HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,436] basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO [2023-06-14 00:02:45,437] basehttp "GET /static/lib/owlcarousel/owl.carousel.min.js HTTP/1.1" 304 0
+WARNING [2023-06-14 00:02:45,440] log Not Found: /mision/img/logo.png
+WARNING [2023-06-14 00:02:45,444] basehttp "GET /mision/img/logo.png HTTP/1.1" 404 3387
+INFO [2023-06-14 00:02:45,452] basehttp "GET /static/img/header.jpg HTTP/1.1" 304 0
+WARNING [2023-06-14 00:02:45,480] basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1903
+INFO [2023-06-14 00:02:47,306] basehttp "GET / HTTP/1.1" 200 15069
+WARNING [2023-06-14 00:02:47,323] log Not Found: /img/logo.png
+WARNING [2023-06-14 00:02:47,324] basehttp "GET /img/logo.png HTTP/1.1" 404 3366
+INFO [2023-06-14 00:03:36,847] basehttp "GET / HTTP/1.1" 200 15069
+WARNING [2023-06-14 00:03:36,869] log Not Found: /img/logo.png
+WARNING [2023-06-14 00:03:36,872] basehttp "GET /img/logo.png HTTP/1.1" 404 3366
+INFO [2023-06-14 00:05:56,484] basehttp "GET / HTTP/1.1" 200 15077
+INFO [2023-06-14 00:05:56,507] basehttp "GET /static/lib/owlcarousel/assets/owl.carousel.min.css HTTP/1.1" 200 2936
+INFO [2023-06-14 00:05:56,516] basehttp "GET /static/css/style.css HTTP/1.1" 200 178586
+INFO [2023-06-14 00:05:56,535] basehttp "GET /static/lib/easing/easing.min.js HTTP/1.1" 200 2302
+INFO [2023-06-14 00:05:56,535] basehttp "GET /static/lib/counterup/counterup.min.js HTTP/1.1" 200 2406
+INFO [2023-06-14 00:05:56,535] basehttp "GET /static/lib/waypoints/waypoints.min.js HTTP/1.1" 200 9028
+INFO [2023-06-14 00:05:56,537] basehttp "GET /static/img/logo.png HTTP/1.1" 200 13303
+INFO [2023-06-14 00:05:56,540] basehttp "GET /static/js/main.js HTTP/1.1" 200 2172
+INFO [2023-06-14 00:05:56,543] basehttp "GET /static/lib/owlcarousel/owl.carousel.min.js HTTP/1.1" 200 42766
+INFO [2023-06-14 00:05:56,674] basehttp "GET /static/img/header.jpg HTTP/1.1" 200 164109
+WARNING [2023-06-14 00:05:57,086] basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1903
+INFO [2023-06-14 00:36:33,945] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 00:36:34,626] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:36:35,780] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 00:36:36,358] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:37:04,338] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 00:37:04,919] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:37:30,750] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 00:37:31,352] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:37:57,220] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 00:37:57,800] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 00:37:58,944] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 00:37:59,558] autoreload Watching for file changes with StatReloader
+ERROR [2023-06-14 00:38:29,201] log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 1373, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':ensayos-no-destructivos' from 'core:ensayos-no-destructivos'
+ERROR [2023-06-14 00:38:29,205] basehttp "GET / HTTP/1.1" 500 186850
+WARNING [2023-06-14 00:38:29,303] log Not Found: /favicon.ico
+WARNING [2023-06-14 00:38:29,305] basehttp "GET /favicon.ico HTTP/1.1" 404 3566
+ERROR [2023-06-14 00:38:36,932] log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 1373, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':' from 'core:'
+ERROR [2023-06-14 00:38:36,935] basehttp "GET / HTTP/1.1" 500 186393
+ERROR [2023-06-14 00:39:06,718] log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for ' ensayos-no-destructivos' not found. ' ensayos-no-destructivos' is not a valid view function or pattern name.
+ERROR [2023-06-14 00:39:06,723] basehttp "GET / HTTP/1.1" 500 158501
+ERROR [2023-06-14 00:39:07,869] log Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for ' ensayos-no-destructivos' not found. ' ensayos-no-destructivos' is not a valid view function or pattern name.
+ERROR [2023-06-14 00:39:07,872] basehttp "GET / HTTP/1.1" 500 158501
+INFO [2023-06-14 00:39:12,575] basehttp "GET / HTTP/1.1" 200 15080
+WARNING [2023-06-14 00:39:12,703] basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1903
+INFO [2023-06-14 00:39:16,834] basehttp "GET /ensayos_no_destructivos/ HTTP/1.1" 200 18089
+INFO [2023-06-14 00:39:16,889] basehttp "GET /static/img/Liquidos%20Penetrantes/PT1A.jpg HTTP/1.1" 200 76620
+INFO [2023-06-14 00:39:16,891] basehttp "GET /static/img/Visual/VT1C.JPG HTTP/1.1" 200 167395
+INFO [2023-06-14 00:39:16,914] basehttp "GET /static/img/Visual/VT1B.JPG HTTP/1.1" 200 572525
+INFO [2023-06-14 00:39:17,041] basehttp "GET /static/img/Liquidos%20Penetrantes/PT1B.JPG HTTP/1.1" 200 1990208
+INFO [2023-06-14 00:39:17,112] basehttp "GET /static/img/Liquidos%20Penetrantes/PT1C.JPG HTTP/1.1" 200 2804067
+INFO [2023-06-14 00:39:17,115] basehttp "GET /static/img/Particulas%20Magneticas/MT1B.JPG HTTP/1.1" 200 2136987
+INFO [2023-06-14 00:39:17,142] basehttp "GET /static/img/Visual/VT1A.jpg HTTP/1.1" 200 3660177
+INFO [2023-06-14 00:39:17,150] basehttp "GET /static/img/Radiografia/RT1C.JPG HTTP/1.1" 200 166528
+INFO [2023-06-14 00:39:17,153] basehttp "GET /static/img/Radiografia/RT1B.JPG HTTP/1.1" 200 169254
+INFO [2023-06-14 00:39:17,157] basehttp "GET /static/img/Particulas%20Magneticas/MT1A.JPG HTTP/1.1" 200 2767557
+INFO [2023-06-14 00:39:17,161] basehttp "GET /static/img/Particulas%20Magneticas/MT1C.JPG HTTP/1.1" 200 2659401
+INFO [2023-06-14 00:39:17,168] basehttp "GET /static/img/Interpretacion%20Peliculas/IRT1A.jpeg HTTP/1.1" 200 62812
+INFO [2023-06-14 00:39:17,175] basehttp "GET /static/img/Interpretacion%20Peliculas/IRT1B.jpeg HTTP/1.1" 200 44823
+INFO [2023-06-14 00:39:17,197] basehttp "GET /static/img/Ultrasonido/UT1B.jpg HTTP/1.1" 200 104257
+INFO [2023-06-14 00:39:17,334] basehttp "GET /static/img/Ultrasonido/UT1A.JPG HTTP/1.1" 200 2388286
+INFO [2023-06-14 00:39:17,384] basehttp "GET /static/img/Ultrasonido/UT1C.JPG HTTP/1.1" 200 2736492
+INFO [2023-06-14 00:39:17,394] basehttp "GET /static/img/Interpretacion%20Peliculas/IRT1C.JPG HTTP/1.1" 200 3707507
+INFO [2023-06-14 00:39:17,395] basehttp "GET /static/img/Radiografia/RT1A.jpg HTTP/1.1" 200 6052307
+INFO [2023-06-14 00:39:17,424] basehttp "GET /static/img/Espesores/UTM1A.JPG HTTP/1.1" 200 3745007
+INFO [2023-06-14 00:39:17,443] basehttp "GET /static/img/Espesores/UTM1B.JPG HTTP/1.1" 200 3654262
+INFO [2023-06-14 00:39:17,453] basehttp "GET /static/img/Espesores/UTM1C.jpg HTTP/1.1" 200 2393348
+INFO [2023-06-14 01:35:53,160] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:35:53,853] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:36:19,741] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:36:20,339] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:36:26,624] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:36:27,198] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:38:54,742] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:38:55,330] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:38:59,560] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:39:00,144] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:39:15,695] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:39:16,314] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:39:28,775] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:39:29,351] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:39:43,858] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:39:44,445] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:39:51,764] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:39:52,347] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:40:05,798] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:40:06,401] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:40:16,824] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:40:17,397] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:40:28,817] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:40:29,418] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:40:33,649] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:40:34,221] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:40:35,353] autoreload /www/src/apps/core/views.py changed, reloading.
+INFO [2023-06-14 01:40:35,909] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:42:08,784] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:42:09,370] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:42:46,525] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:42:47,112] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:43:11,936] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:43:12,514] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:44:14,420] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:44:15,009] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:44:49,072] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:44:49,660] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:44:50,798] autoreload /www/src/apps/core/urls.py changed, reloading.
+INFO [2023-06-14 01:44:51,341] autoreload Watching for file changes with StatReloader
+INFO [2023-06-14 01:49:56,506] basehttp "GET / HTTP/1.1" 200 15091
+INFO [2023-06-14 01:49:59,710] basehttp "GET /tratamiento_termico_dureza/ HTTP/1.1" 200 12243
+INFO [2023-06-14 01:49:59,765] basehttp "GET /static/img/Visual/VT1B.JPG HTTP/1.1" 200 572525
+INFO [2023-06-14 01:49:59,811] basehttp "GET /static/img/Visual/VT1A.jpg HTTP/1.1" 200 3660177
+INFO [2023-06-14 01:49:59,845] basehttp "GET /static/img/Dureza/D1A.JPG HTTP/1.1" 200 2312324
+INFO [2023-06-14 01:49:59,857] basehttp "GET /static/img/Dureza/D1B.jpg HTTP/1.1" 200 2528600
+INFO [2023-06-14 01:49:59,867] basehttp "GET /static/img/Dureza/D1C.jpg HTTP/1.1" 200 3388864
+INFO [2023-06-14 01:50:03,753] basehttp "GET /capacitacion_y_certificacion_ndt_aws/ HTTP/1.1" 200 11039
+INFO [2023-06-14 01:50:03,842] basehttp "GET /static/img/Capacitacion%20y%20certificacion/C1.png HTTP/1.1" 200 4247692
+INFO [2023-06-14 01:50:09,824] basehttp "GET /prueba_de_vacio_soldaduras/ HTTP/1.1" 200 9709
+INFO [2023-06-14 01:50:09,871] basehttp "GET /static/img/Vacio/V1B.jpg HTTP/1.1" 200 75102
+INFO [2023-06-14 01:50:09,871] basehttp "GET /static/img/Vacio/V1A.jpg HTTP/1.1" 200 145450
+INFO [2023-06-14 01:50:09,905] basehttp "GET /static/img/Vacio/V1C.JPG HTTP/1.1" 200 3460196
