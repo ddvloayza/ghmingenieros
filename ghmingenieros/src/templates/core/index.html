@@ -12,24 +12,93 @@
 {% endblock social_facebook %}
 
 {% block css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
 <style>
+    #sync1 .item {
+    
+        padding: 3rem 2rem;
+        margin: 5px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
+    #sync2 .item {
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    }
+    #sync2 .item h1 {
+    font-size: 18px;
+    }
+    #sync2 .current .item {
+    background: #0c83e7;
+    }
+    .owl-theme .owl-nav [class*='owl-'] {
+    transition: all .3s ease;
+    }
+    .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+    }
+
+    #sync1.owl-theme {
+    position: relative;
+    }
+    #sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+    }
+    #sync1.owl-theme .owl-prev {
+    left: 10px;
+    }
+    #sync1.owl-theme .owl-next {
+    right: 10px;
+    }
+    .text_item{
+        padding: 16rem;
+    }
 
 </style>
 
 {% endblock css %}
 {% block content %}
+<div id="sync1" class="owl-carousel owl-theme">
+    <div class="item" style="background-image: url('{% static 'img/sliderghm1.jpg' %}');">
+        <div class="text_item"></div>
+    </div>
+    <div class="item" style="background-image: url('{% static 'img/sliderghm2.jpg' %}');">
+        <div class="text_item"></div>
+    </div>
+    <div class="item" style="background-image: url('{% static 'img/sliderghm3.jpg' %}');">
+        <div class="text_item"></div>
+    </div>
+</div>
     <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid mb-5">
+    <!-- <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
             <h1 class="text-primary mb-4">GHM</h1>
             <h1 class="text-white display-3 mb-5">INGENIEROS</h1>
 
         </div>
-    </div>
+    </div> -->
     <!-- Header End -->
-
-
+    
     <!-- About Start -->
 <div class="container-fluid py-5">
     <div class="container">
@@ -129,5 +198,23 @@
 
 {% endblock content %}
 {% block js %}
-
+<script>
+    $(document).ready(function() {
+        var sync1 = $("#sync1");
+        sync1.owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
+      });
+      $('.play').on('click', function() {
+        owl.trigger('play.owl.autoplay', [1000])
+      })
+      $('.stop').on('click', function() {
+        owl.trigger('stop.owl.autoplay')
+      })
+    })
+  </script>
 {% endblock js %}
